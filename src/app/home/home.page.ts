@@ -12,7 +12,7 @@ export class HomePage {
   cars:any;
 
   constructor(private httpClient:  HttpClient) {
-    this.cars = this.httpClient.get('https://desktop/daw/HLC/MOCK_DATA.json');
+    this.cars = this.httpClient.get('https://desktop/daw/HLC/MOCK_DATA.json') ;
 
   }
 }
